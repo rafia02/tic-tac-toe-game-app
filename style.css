@@ -1,0 +1,62 @@
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: rgb(2, 2, 2);
+}
+
+
+.container {
+    display: inline-block;
+    text-align: center;
+}
+
+#tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.inpt {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 2px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+#winner-message{
+    color: rgb(146, 226, 26);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.inpt.winner {
+    background-color: rgb(254, 102, 128);
+}
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    transition: background-color 0.8s ease;
+    border-radius: 5px;
+}
+
+#reset-button:hover{
+    background-color: rgb(94, 93, 93);
+}
+
