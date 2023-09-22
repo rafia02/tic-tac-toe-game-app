@@ -3,6 +3,13 @@
     text-align: center;
     background: rgb(2, 2, 2);
 }
+h2{
+    color: rgb(223, 222, 222);
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    
+}
 
 
 .container {
